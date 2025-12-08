@@ -3,26 +3,7 @@
 $message = "";
 
 // Si le formulaire d'upload est soumis
-if (isset($_POST['upload'])) {
-    $dossierCible = "uploads/";
-    
-    // On récupère le nom du fichier
-    $fichierCible = $dossierCible . basename($_FILES["photoOiseau"]["name"]);
-    
-    // Vérification basique (est-ce une image ?)
-    $check = getimagesize($_FILES["photoOiseau"]["tmp_name"]);
-    
-    if($check !== false) {
-        // Sauvegarde physique du fichier
-        if (move_uploaded_file($_FILES["photoOiseau"]["tmp_name"], $fichierCible)) {
-            $message = " Votre photo a été téléchargée avec succès !";
-        } else {
-            $message = " Désolé, une erreur est survenue lors du téléchargement.";
-        }
-    } else {
-        $message = " Ce fichier n'est pas une image valide.";
-    }
-}
+"jsp j'aime pas tant que ca'"
 ?>
 
 <!DOCTYPE html>
