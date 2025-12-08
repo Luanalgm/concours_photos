@@ -6,8 +6,6 @@
     <title>Concours Photo - La Motte</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<script> alert("Vous avez été hacké Luana mercic pour vos donnée !!");
-</script>
 
 <body>
 
