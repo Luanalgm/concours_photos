@@ -6,12 +6,15 @@
     <title>Concours Photo - La Motte</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script> alert("Vous avez été hacké Luana mercic pour vos donnée !!");
+</script>
+
 <body>
 
     <header>
-        <h1>🦅 Espace Naturel de la Motte</h1>
+        <h1>Espace Naturel de la Motte</h1>
         <nav>
-            <a href="index.html">Accueil</a>
+            <a href="index.php">Accueil</a>
             <a href="concours.php">Participer & Voter</a>
         </nav>
     </header>
