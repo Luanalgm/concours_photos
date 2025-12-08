@@ -15,12 +15,12 @@ if (isset($_POST['upload'])) {
     if($check !== false) {
         // Sauvegarde physique du fichier
         if (move_uploaded_file($_FILES["photoOiseau"]["tmp_name"], $fichierCible)) {
-            $message = "✅ Votre photo a été téléchargée avec succès !";
+            $message = " Votre photo a été téléchargée avec succès !";
         } else {
-            $message = "❌ Désolé, une erreur est survenue lors du téléchargement.";
+            $message = " Désolé, une erreur est survenue lors du téléchargement.";
         }
     } else {
-        $message = "❌ Ce fichier n'est pas une image valide.";
+        $message = " Ce fichier n'est pas une image valide.";
     }
 }
 ?>
@@ -35,7 +35,7 @@ if (isset($_POST['upload'])) {
 <body>
 
     <header>
-        <h1>📸 Espace de Compétition</h1>
+        <h1> Espace de Compétition</h1>
         <nav>
             <a href="index.html">Accueil</a>
             <a href="concours.php">Participer & Voter</a>
