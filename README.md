@@ -38,3 +38,9 @@ Consignes de participation
 Galerie des photos (fournies ou fictives)
 Formulaire PHP de participation (optionnel selon le niveau du groupe)
 
+
+
+
+
+
+https://denlua.alwaysdata.net/concours_photos/www/concours.php
