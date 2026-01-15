@@ -1,9 +1,25 @@
 <?php
-// TRAITEMENT PHP : Sauvegarde de la photo
+require_once 'config.php'; // On branche la connexion
 $message = "";
 
-// Si le formulaire d'upload est soumis
-"jsp j'aime pas tant que ca'"
+if (isset($_POST['upload'])) {
+    $nom = htmlspecialchars($_POST['nom']);
+    $dossier = "uploads/";
+    $nomFichier = basename($_FILES["photoOiseau"]["name"]);
+    $cheminFinal = $dossier . time() . "_" . $nomFichier; // On ajoute un timestamp pour éviter les doublons
+
+    // 1. On déplace le fichier physiquement sur le serveur
+    if (move_uploaded_file($_FILES["photoOiseau"]["tmp_name"], $cheminFinal)) {
+        
+        // 2. On l'enregistre dans la base de données
+        $req = $pdo->prepare("INSERT INTO photos (nom_utilisateur, chemin_photo) VALUES (?, ?)");
+        if ($req->execute([$nom, $cheminFinal])) {
+            $message = "Bravo $nom, votre photo a été ajoutée !";
+        }
+    } else {
+        $message = "Erreur lors du téléchargement.";
+    }
+}
 ?>
 
 <!DOCTYPE html>
