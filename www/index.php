@@ -44,7 +44,7 @@
     </main>
 
     <footer>
-        <p style="text-align: center; color: #666;">© 2024 Projet TD - Équipe 4</p>
+        <p style="text-align: center; color: #666;">© 2024 Projet TD - Équipe 4 Absent</p>
     </footer>
 
 </body>
