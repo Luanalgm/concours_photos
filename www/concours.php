@@ -66,7 +66,7 @@ $message = "";
                     echo "<p>Aucune photo pour le moment. Soyez le premier !</p>";
                 }
                 ?>
-            </div>
+            </div><div></div>
 
             
             
