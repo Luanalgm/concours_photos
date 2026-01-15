@@ -34,7 +34,7 @@ if (isset($_POST['upload'])) {
     <header>
         <h1> Espace de Compétition</h1>
         <nav>
-            <a href="index.html">Accueil</a>
+            <a href="index.php">Accueil</a>
             <a href="concours.php">Participer & Voter</a>
         </nav>
     </header>
