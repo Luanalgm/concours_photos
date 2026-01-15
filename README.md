@@ -8,6 +8,8 @@ Le site devra comporter au minimum deux pages :
 Une page Accueil / Présentation de l’Espace de la Motte
 Une page Concours Photos
 
+Luana : chef d'équipe et hébergeur final + modification sur les fichiers créer par Denis
+Denis : mis en page et début codage
 Chef d’équipe : création du repo Git, écriture du README, vérification des PR.
 Développeur principal : structure HTML/PHP, intégration, mise en page.
 
