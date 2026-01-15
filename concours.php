@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php'; // On branche la connexion
+require_once 'config.php';
 $message = "";
 
 if (isset($_POST['upload'])) {
