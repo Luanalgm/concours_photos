@@ -26,7 +26,7 @@ if (isset($_POST['upload'])) {
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Participer - Concours La Motte</title>
+    <title>Participer - Concours La Motte !</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
